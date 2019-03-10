@@ -1,0 +1,35 @@
+﻿已經開始建置於 2014/5/30 下午 12:39:59。
+     1>節點 2 (build 目標) 上的專案 "Z:\sinwave\sinwave\sinwave.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\sinwave.unsuccessfulbuild"。
+       ClCompile:
+         所有輸出都是最新的。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\sinwave.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt sinwaveView.cpp
+         sinwaveView.cpp
+     1>z:\sinwave\sinwave\sinwaveview.cpp(67): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+       ResourceCompile:
+         所有輸出都是最新的。
+       ManifestResourceCompile:
+         所有輸出都是最新的。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\sinwave\Debug\sinwave.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\sinwave.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\sinwave\Debug\sinwave.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\sinwave\Debug\sinwave.lib" /MACHINE:X86 Debug\sinwave.res
+         Debug\sinwave.exe.embed.manifest.res
+         Debug\MainFrm.obj
+         Debug\sinwave.obj
+         Debug\sinwaveDoc.obj
+         Debug\sinwaveView.obj
+         Debug\stdafx.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\sinwave.exe.embed.manifest" /manifest Debug\sinwave.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         所有輸出都是最新的。
+       LinkEmbedManifest:
+         所有輸出都是最新的。
+         sinwave.vcxproj -> Z:\sinwave\Debug\sinwave.exe
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\sinwave.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\sinwave.lastbuildstate"。
+     1>專案 "Z:\sinwave\sinwave\sinwave.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:11.26
